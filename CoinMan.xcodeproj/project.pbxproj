@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674C98A720ABB4CB00ADA9C3 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 674C98A620ABB4CB00ADA9C3 /* giphy.gif */; };
 		6762040720A91EB000F79BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762040620A91EB000F79BAC /* AppDelegate.swift */; };
 		6762040920A91EB000F79BAC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6762040820A91EB000F79BAC /* GameScene.sks */; };
 		6762040B20A91EB000F79BAC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6762040A20A91EB000F79BAC /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674C98A620ABB4CB00ADA9C3 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../../giphy.gif; sourceTree = "<group>"; };
 		6762040320A91EB000F79BAC /* CoinMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6762040620A91EB000F79BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6762040820A91EB000F79BAC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		674C98A520ABB4BE00ADA9C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				674C98A620ABB4CB00ADA9C3 /* giphy.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		676203FA20A91EB000F79BAC = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		6762040520A91EB000F79BAC /* CoinMan */ = {
 			isa = PBXGroup;
 			children = (
+				674C98A520ABB4BE00ADA9C3 /* images */,
 				6762040620A91EB000F79BAC /* AppDelegate.swift */,
 				6762040820A91EB000F79BAC /* GameScene.sks */,
 				6762040A20A91EB000F79BAC /* Actions.sks */,
@@ -245,6 +256,7 @@
 				6762040920A91EB000F79BAC /* GameScene.sks in Resources */,
 				6762041420A91EB000F79BAC /* Assets.xcassets in Resources */,
 				6762041720A91EB000F79BAC /* LaunchScreen.storyboard in Resources */,
+				674C98A720ABB4CB00ADA9C3 /* giphy.gif in Resources */,
 				6762040B20A91EB000F79BAC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6295RT7MX;
 				INFOPLIST_FILE = CoinMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.vsukiasyan.CoinMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6295RT7MX;
 				INFOPLIST_FILE = CoinMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.vsukiasyan.CoinMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
